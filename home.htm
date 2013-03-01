@@ -1,0 +1,27 @@
+<div id="maindiv" style="background-size:100% 100%;" data-bb-type="screen" data-bb-effect="fade">
+		<script type="text/javascript">
+		bb.init({
+			onscreenready: function (element, id) {
+			if (id == "main") {
+			// code to be executed before the "main" screen is loaded.
+			} else if (id == "home") {
+			// code to be executed before the "add" screen is loaded.
+		}
+	},
+			ondomready: function (element, id) {
+			if (id == "main") {
+			// code to be executed after the "main" screen is loaded.
+			} else if (id == "home") {
+			//code to be executed after the "add" screen is loaded.
+			}
+    }
+  });
+</script>
+
+<div id="body"><input type="date" onchange="alert('hello')" /></div>
+	
+<div data-bb-type="action-bar">
+	<div data-bb-type="action" data-bb-style="button" data-bb-img="images/actionBar/cog_dark_theme.png" onclick="bb.pushScreen('page1.htm', 'page1');">Page1</div>
+</div>
+
+</div>
